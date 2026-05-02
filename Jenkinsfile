@@ -22,7 +22,7 @@ pipeline {
             steps {
                 script {
                     dir('terraform') {
-                        git url: 'https://github.com/QuntamVector/Infrastructure.git', branch: 'main'
+                        git url: 'https://github.com/aabathorat11/Infrastructure.git', branch: 'main'
                     }
                 }
             }
