@@ -11,5 +11,5 @@ variable "kubernetes_version" {
 variable "ssh_key_name" {
   type        = string
   description = "Name of the EC2 key pair for SSH access to worker nodes"
-  default     = "Desktop/key/eedd.pem"
+  default     = "Desktop/key/main-server-ec2-key.pem"
 }
